@@ -1,0 +1,35 @@
+# Variables de entorno
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Directorios temporales
+/tmp
+/temp
+
+# Logs
+*.log
+/logs
+
+# Directorio de dependencias (si se usa composer en el futuro)
+/vendor
+
+# Archivos de configuración del IDE
+.idea/
+.vscode/
+.qodo/
+
+# Archivos subidos por usuarios (estos deben manejarse con un sistema de almacenamiento externo en producción)
+# Se comentan para no ignorarlos en este caso, pero es recomendable en producción
+# /uploads/*
+# !/uploads/.gitkeep
+
+# Certificados SSL y archivos de clave
+*.crt
+*.pem
+*.key
+
+# Archivos de caché
+/cache/
